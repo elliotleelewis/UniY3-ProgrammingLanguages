@@ -1,0 +1,1 @@
+Interfaces define object properties, without giving them any functionality. Abstract classes allow you to add abstract methods and properties, that provide basic standard functionality to classes that inherit from them. This is evident in Ex4A and Ex4B, where the "age" property exists on 4B, which wouldn't be possible on an Interface on 4A.

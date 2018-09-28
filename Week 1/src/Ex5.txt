@@ -1,0 +1,2 @@
+Method A takes an integer, which is a primitive type in Java. This means that its passed by value into the function, and when its modified, the original variable remains the same.
+Method B takes a Number object, which isn't a primitive type in Java. This means that its passed by reference into the function, and when its modified, the original variable is modified too.
