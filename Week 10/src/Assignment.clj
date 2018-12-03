@@ -22,10 +22,11 @@
 )
 
 (defn print-top-primes [from to]
-	(def seq (sort > (prim-seq from to)))
+	(def seq (reverse (prim-seq from to)))
 	(doall (map println seq))
-	(def total (reduce + seq))
-	(println "Total:" total)
+	(let [total (reduce + seq)]
+		(println "Total:" total)
+	)
 )
 
 (print-top-primes 50 100)
